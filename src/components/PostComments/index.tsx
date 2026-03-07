@@ -1,3 +1,4 @@
+import React from 'react';
 import { FormEvent, useState } from 'react';
 import styles from './PostComments.module.css';
 
@@ -15,6 +16,7 @@ const Post = () => {
     }
 
     return (
+        <>
         <div>
             <ul className={styles['post-comments']}>
                 {comments.map(({ comment, id }) => (
@@ -32,6 +34,7 @@ const Post = () => {
                 </button>
             </form>
         </div>
+        </>
     );
 }
 

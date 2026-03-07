@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/jest.config.js", "src/babel.config.js", "setupTests.ts" ]
 }
